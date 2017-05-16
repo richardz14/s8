@@ -14,26 +14,35 @@
     <link rel="stylesheet" href="<?php echo base_url();?>/assets/css/Navigation-with-Button1.css">
     <link rel="stylesheet" href="<?php echo base_url();?>/assets/css/styles.css">
     <link rel="stylesheet" href="<?php echo base_url();?>/assets/css/Team-Grid.css">
+<link rel="stylesheet" href="<?php echo base_url();?>/assets/css/grayscale.css">
 
-        <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <link href="<?php echo base_url();?>/assets/css/css.css" rel="stylesheet" type="text/css">
+    <link href="<?php echo base_url();?>/assets/css/css(1).css" rel="stylesheet" type="text/css">
+
+        <script src="<?php echo base_url();?>/assets/js/jquery.min.js"></script>
+    <script src="<?php echo base_url();?>/assets/js/bootstrap.min.js"></script>
+    <script src="<?php echo base_url();?>/assets/js/jquery.easing.min.js"></script>
+    <script src="<?php echo base_url();?>/assets/js/grayscale.js"></script>
+
         <link rel="stylesheet" href="<?php echo base_url();?>/assets/silverorbit.css">
 
 </head>
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
-    <div>
-        <nav class="navbar navbar-default navigation-clean-button">
+<body data-spy="scroll" data-target=".navbar" data-offset="50" class="container-image body-colors">
+	<div class="navbar-right">
+        <nav class="navbar navbar-custom navbar-fixed-top top-nav-collapse" role="navigation">
             <div class="container">
+				<!--
                 <div class="navbar-header"><a class="navbar-brand navbar-link" href="#"><i><img src="<?php echo base_url();?>/assets/img/so_logo.png"></i>SilverOrbit</a>
                     <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
                 </div>
-                <div class="collapse navbar-collapse" id="navcol-1">
+				-->
+                <div class="collapse navbar-collapse" id="navcol-1" >
                     <ul class="nav navbar-nav">
-                        <li class="active" role="presentation"><a href="#">HOME</a></li>
+                        <li class="active" role="presentation"><a href="#home_info">HOME</a></li>
                         <li role="presentation"><a href="#about_info">ABOUT</a></li>
                         <li role="presentation"><a href="#service_info">SERVICE</a></li>
                         <li role="presentation"><a href="#contact_info">CONTACT</a></li>
-                        <li role="presentation"><a href="#">BLOG</a></li>
+                        <li role="presentation"><a href="https://silverorbit.github.io">BLOG</a></li>
                         <!--contact_info
                         <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#">Dropdown<span class="caret"></span></a>
                             <ul class="dropdown-menu" role="menu">
@@ -50,52 +59,53 @@
                 </div>
             </div>
         </nav>
-    </div>
-
-	<div class="container container-image" align="center" >
+          </div>
+     <div id="home_info" class="container content-section text-center">   
+		<div class="" align="center" >
         	  <img class="img-responsive" width="580" height="380" src="<?php echo base_url();?>/assets/img/so_logo.png" />
        </div>
-
+     </div>
 
     <div class="article-list">
         <div class="container">
 
-            <div id="about_info" class="intro">
+            <div id="about_info" class="container content-section text-center">
                 <h2 class="text-center">ABOUT</h2>
                 <p class="text-center">We are a startup company located in the Philippines.<br>We worked and adhere with DevOps Tools like Hashicorp's Terraform, Vagrant, Packer, Jenkins Travis and Ansible. We deploy applications using Continuous Integration and Delivery together with cloud platforms like Amazon Web Services, LXD, Openstack, Docker, Kubernetes.</p>
             </div>
-            <div id="service_info" class="row articles">
+
+            <div id="service_info" class="container content-section text-center">
             <h2 class="text-center">SERVICES</h2>
                 <p class="text-center">We are a startup company located in the Philippines.<br>We worked and adhere with DevOps Tools like Hashicorp's Terraform, Vagrant, Packer, Jenkins Travis and Ansible. We deploy applications using Continuous Integration and Delivery together with cloud platforms like Amazon Web Services, LXD, Openstack, Docker, Kubernetes.</p>
 
                 <div class="col-md-4 col-sm-6 item">
                     <a href="#"><img class="img-responsive" src="<?php echo base_url();?>/assets/img/php.png"></a>
-                    <h3 class="name">SERVICES</h3>
-                    <p class="description">We believe that cloud computing and open source technologies are the present and the future of technology.    In our day-to-day activities we adhere to best industry practices and enjoy it.</p><a href="#" class="action"><i class="glyphicon glyphicon-circle-arrow-right"></i></a></div>
+                    <h3 class="name">SERVICES1</h3>
+                    <p class="description">We are a startup company located in the Philippines.<br>We worked and adhere with DevOps Tools like Hashicorp's Terraform, Vagrant, Packer, Jenkins Travis and Ansible. We deploy applications using Continuous Integration and Delivery together with cloud platforms like Amazon Web Services, LXD, Openstack, Docker, Kubernetes.</p><a href="#" class="action"><i class="glyphicon glyphicon-circle-arrow-right"></i></a></div>
                 <div
                 class="col-md-4 col-sm-6 item">
-                    <a href="#"><img class="img-responsive" src="<?php echo base_url();?>/assets/img/mysql2.png"></a>
-                    <h3 class="name">Article Title</h3>
-                    <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a href="#" class="action"><i class="glyphicon glyphicon-circle-arrow-right"></i></a></div>
+                    <a href="#" class="center"><img class="img-responsive" src="<?php echo base_url();?>/assets/img/mysql2.png"></a>
+                    <h3 class="name">SERVICES2</h3>
+                    <p class="description">We are a startup company located in the Philippines.<br>We worked and adhere with DevOps Tools like Hashicorp's Terraform, Vagrant, Packer, Jenkins Travis and Ansible. We deploy applications using Continuous Integration and Delivery together with cloud platforms like Amazon Web Services, LXD, Openstack, Docker, Kubernetes.</p><a href="#" class="action"><i class="glyphicon glyphicon-circle-arrow-right"></i></a></div>
             <div
             class="col-md-4 col-sm-6 item">
                 <a href="#"><img class="img-responsive" src="<?php echo base_url();?>/assets/img/pythonlogo.jpg"></a>
-                <h3 class="name">Article Title</h3>
-                <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a href="#" class="action"><i class="glyphicon glyphicon-circle-arrow-right"></i></a></div>
+                <h3 class="name">SERVICES3</h3>
+                <p class="description">We are a startup company located in the Philippines.<br>We worked and adhere with DevOps Tools like Hashicorp's Terraform, Vagrant, Packer, Jenkins Travis and Ansible. We deploy applications using Continuous Integration and Delivery together with cloud platforms like Amazon Web Services, LXD, Openstack, Docker, Kubernetes.</p><a href="#" class="action"><i class="glyphicon glyphicon-circle-arrow-right"></i></a></div>
     		</div>
 
-            <div id="contact_info" class="intro">
+            <div id="contact_info" class="container content-section text-center">
                 <h2 class="text-center">CONTACTS</h2>
                 <p class="text-center">We are a startup company located in the Philippines.<br>We worked and adhere with DevOps Tools like Hashicorp's Terraform, Vagrant, Packer, Jenkins Travis and Ansible. We deploy applications using Continuous Integration and Delivery together with cloud platforms like Amazon Web Services, LXD, Openstack, Docker, Kubernetes.</p>
             </div>
-    </div>
+    	</div>
     </div>
 
 
     <!-- footer team info -->
     <div class="team-grid">
-        <div class="container">
-            <div class="intro">
+        <div class="container container content-section text-center">
+            <div class="">
                 <h2 class="text-center">Team </h2>
                 <p class="text-center">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet.&nbsp; </p>
             </div>
@@ -141,8 +151,9 @@
     </div>
     <div class="footer-dark">
         <footer>
-            <div class="container">
+            <div class="container ">
                 <div class="row">
+                <!--
                     <div class="col-md-6 col-md-push-6 item text">
                         <h3>Company Name</h3>
                         <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
@@ -165,7 +176,9 @@
                     </div>
                     <div class="col-md-12 col-sm-4 item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
                 </div>
-                <p class="copyright">Company Name © 2016</p>
+                  <p class="copyright"><img class="img-responsive" src="<?php echo base_url();?>/assets/img/email.png"> © 2017</p>
+                -->
+                <p class="copyright">SlverOrbit © 2017</p>
             </div>
         </footer>
     </div>

@@ -1,12 +1,18 @@
 @charset "utf-8";
 
 .container-image{
-    background-image: url('../assets/img/NFCC1.jpg');
+    background-image: url('../assets/img/back_image.jpg');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+
+}
+#navcol-1{
 
 }
 
+.body-colors{
+	color: #3d3d3d;
+}
 
 
 /*
