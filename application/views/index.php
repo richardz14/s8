@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="body-colors">
 
 <head>
     <meta charset="utf-8">
@@ -27,16 +27,19 @@
         <link rel="stylesheet" href="<?php echo base_url();?>/assets/silverorbit.css">
 
 </head>
-<body data-spy="scroll" data-target=".navbar" data-offset="50" class="container-image body-colors">
+<body data-spy="scroll" data-target=".navbar" data-offset="50" class="container-image">
 	<div class="navbar-right">
         <nav class="navbar navbar-custom navbar-fixed-top top-nav-collapse" role="navigation">
             <div class="container">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
 				<!--
                 <div class="navbar-header"><a class="navbar-brand navbar-link" href="#"><i><img src="<?php echo base_url();?>/assets/img/so_logo.png"></i>SilverOrbit</a>
                     <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
                 </div>
 				-->
-                <div class="collapse navbar-collapse" id="navcol-1" >
+                <div class="collapse navbar-collapse navbar-right navbar-main-collapse" id="navcol-1" >
                     <ul class="nav navbar-nav">
                         <li class="active" role="presentation"><a href="#home_info">HOME</a></li>
                         <li role="presentation"><a href="#about_info">ABOUT</a></li>
@@ -76,15 +79,29 @@
 
             <div id="service_info" class="container content-section text-center">
             <h2 class="text-center">SERVICES</h2>
-                <p class="text-center">We are a startup company located in the Philippines.<br>We worked and adhere with DevOps Tools like Hashicorp's Terraform, Vagrant, Packer, Jenkins Travis and Ansible. We deploy applications using Continuous Integration and Delivery together with cloud platforms like Amazon Web Services, LXD, Openstack, Docker, Kubernetes.</p>
+                <p class="text-center">We believe that cloud computing and open source technologies are the present and the future of technology.    In our day-to-day activities we adhere to best industry practices and enjoy it.</p>
+                <div
+            class="col-md-4 col-sm-6 item">
+                <a href="#"><img class="img-responsive" src="<?php echo base_url();?>/assets/img/Ubuntu Logo Desktop Wallpaper.jpg"></a>
+                <h3 class="name">OS1</h3>
+                <p class="description">We are a startup company located in the Philippines.<br>We worked and adhere with DevOps Tools like Hashicorp's Terraform, Vagrant, Packer, Jenkins Travis and Ansible. We deploy applications using Continuous Integration and Delivery together with cloud platforms like Amazon Web Services, LXD, Openstack, Docker, Kubernetes.</p><a href="#" class="action"><i class="glyphicon glyphicon-circle-arrow-right"></i></a></div>
+               <div
+            class="col-md-4 col-sm-6 item">
+                <a href="#"><img class="img-responsive" src="<?php echo base_url();?>/assets/img/Windows_logo_Cyan_rgb_D.jpg"></a>
+                <h3 class="name">OS2</h3>
+                <p class="description">We are a startup company located in the Philippines.<br>We worked and adhere with DevOps Tools like Hashicorp's Terraform, Vagrant, Packer, Jenkins Travis and Ansible. We deploy applications using Continuous Integration and Delivery together with cloud platforms like Amazon Web Services, LXD, Openstack, Docker, Kubernetes.</p><a href="#" class="action"><i class="glyphicon glyphicon-circle-arrow-right"></i></a></div>
+                <div
+            class="col-md-4 col-sm-6 item">
+                <a href="#"><img class="img-responsive" src="<?php echo base_url();?>/assets/img/iphone-apple-logo-clipart-13.jpg"></a>
+                <h3 class="name">OS3</h3>
+                <p class="description">We are a startup company located in the Philippines.<br>We worked and adhere with DevOps Tools like Hashicorp's Terraform, Vagrant, Packer, Jenkins Travis and Ansible. We deploy applications using Continuous Integration and Delivery together with cloud platforms like Amazon Web Services, LXD, Openstack, Docker, Kubernetes.</p><a href="#" class="action"><i class="glyphicon glyphicon-circle-arrow-right"></i></a></div>
 
                 <div class="col-md-4 col-sm-6 item">
                     <a href="#"><img class="img-responsive" src="<?php echo base_url();?>/assets/img/php.png"></a>
                     <h3 class="name">SERVICES1</h3>
                     <p class="description">We are a startup company located in the Philippines.<br>We worked and adhere with DevOps Tools like Hashicorp's Terraform, Vagrant, Packer, Jenkins Travis and Ansible. We deploy applications using Continuous Integration and Delivery together with cloud platforms like Amazon Web Services, LXD, Openstack, Docker, Kubernetes.</p><a href="#" class="action"><i class="glyphicon glyphicon-circle-arrow-right"></i></a></div>
-                <div
-                class="col-md-4 col-sm-6 item">
-                    <a href="#" class="center"><img class="img-responsive" src="<?php echo base_url();?>/assets/img/mysql2.png"></a>
+                <div class="col-md-4 col-sm-6 item">
+                    <a href="#"><img class="img-responsive" src="<?php echo base_url();?>/assets/img/mysql2.png"></a>
                     <h3 class="name">SERVICES2</h3>
                     <p class="description">We are a startup company located in the Philippines.<br>We worked and adhere with DevOps Tools like Hashicorp's Terraform, Vagrant, Packer, Jenkins Travis and Ansible. We deploy applications using Continuous Integration and Delivery together with cloud platforms like Amazon Web Services, LXD, Openstack, Docker, Kubernetes.</p><a href="#" class="action"><i class="glyphicon glyphicon-circle-arrow-right"></i></a></div>
             <div
@@ -96,7 +113,9 @@
 
             <div id="contact_info" class="container content-section text-center">
                 <h2 class="text-center">CONTACTS</h2>
-                <p class="text-center">We are a startup company located in the Philippines.<br>We worked and adhere with DevOps Tools like Hashicorp's Terraform, Vagrant, Packer, Jenkins Travis and Ansible. We deploy applications using Continuous Integration and Delivery together with cloud platforms like Amazon Web Services, LXD, Openstack, Docker, Kubernetes.</p>
+                <p class="text-center">S5 TBIC, Negros First Cyber Center <br>P. Hernaez- Lacson Sts. <br>Bacolod City, Philippines 6100 <br><br>Feel free to email us and ask some questions </p>
+                <p align="center"><img class="img-responsive" src="<?php echo base_url();?>/assets/img/email.png"></p>
+
             </div>
     	</div>
     </div>
@@ -107,49 +126,57 @@
         <div class="container container content-section text-center">
             <div class="">
                 <h2 class="text-center">Team </h2>
-                <p class="text-center">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet.&nbsp; </p>
+                <p class="text-center">We are a startup company located in the Philippines.<br>We worked and adhere with DevOps Tools like Hashicorp's Terraform, Vagrant, Packer, Jenkins Travis and Ansible. We deploy applications using Continuous Integration and Delivery together with cloud platforms like Amazon Web Services, LXD, Openstack, Docker, Kubernetes.</p>
             </div>
             <div class="row people">
                 <div class="col-md-3 col-sm-4 item">
-                    <div class="box" style="background-image:url(assets/img/1.jpg)">
+                    <div class="box" style="background-image:url(<?php echo base_url();?>/assets/img/p1.jpg);">
                         <div class="cover">
-                            <h3 class="name">Ben Johnson</h3>
-                            <p class="title">Musician</p>
+                            <h3 class="name">RODNEY</h3>
+                            <p class="title">Project Manager</p>
+                            <!--
                             <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                            -->
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-4 item">
-                    <div class="box" style="background-image:url(assets/img/2.jpg)">
+                    <div class="box" style="background-image:url(<?php echo base_url();?>/assets/img/p2.jpg)">
                         <div class="cover">
-                            <h3 class="name">Emily Clark</h3>
-                            <p class="title">Artist </p>
+                            <h3 class="name">JM</h3>
+                            <p class="title">Team Leader/Programmer</p>
+                            <!--
                             <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                            -->
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-4 item">
-                    <div class="box" style="background-image:url(assets/img/3.jpg)">
+                    <div class="box" style="background-image:url(<?php echo base_url();?>/assets/img/p4.png)">
                         <div class="cover">
-                            <h3 class="name">Carl Kent</h3>
-                            <p class="title">Stylist </p>
+                            <h3 class="name">JAVIER</h3>
+                            <p class="title">Programmer</p>
+                            <!--
                             <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                            -->
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-4 item">
-                    <div class="box" style="background-image:url(assets/img/4.jpg)">
+                    <div class="box" style="background-image:url(<?php echo base_url();?>/assets/img/p3.png)">
                         <div class="cover">
-                            <h3 class="name">Felicia Adams</h3>
-                            <p class="title">Model </p>
+                            <h3 class="name">EDSON</h3>
+                            <p class="title">QA</p>
+                            <!--
                             <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                            -->
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="footer-dark">
+    <div class="footer">
         <footer>
             <div class="container ">
                 <div class="row">
@@ -178,7 +205,7 @@
                 </div>
                   <p class="copyright"><img class="img-responsive" src="<?php echo base_url();?>/assets/img/email.png"> © 2017</p>
                 -->
-                <p class="copyright">SlverOrbit © 2017</p>
+                <p class="copyright"><h3>SlverOrbit © 2017</h3></p>
             </div>
         </footer>
     </div>
