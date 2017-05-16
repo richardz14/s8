@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+.container-image{
+    background-image: url('../assets/img/NFCC1.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+
+
+/*
+div{
+	background-color: #d3d3d3;
+}
