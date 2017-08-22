@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SilverOrbit &ndash; Blog</title>
+    <link rel="stylesheet" href="<?php echo base_url();?>/assets/css/style.css">
+    <link rel="stylesheet" href="<?php echo base_url();?>/assets/css/style2.css">
+    <link rel="stylesheet" href="<?php echo base_url();?>/assets/css/font.css">
+
+    <!-- Image -->
+    <style>
+        .bgimg-1 {
+        background-position: center;
+        background-size: cover;
+        background-image: url("<?php echo base_url();?>/assets/img/bg2.jpg");
+        min-height: 100%;
+        }
+    </style>
+
+    <body>
+        <!-- Sidebar -->
+        <nav class="w3-sidebar w3-bar-block w3-black w3-card-2 bgimg-1" id="mySidebar">
+            <a href="<?php echo site_url();?>/home/blog/">
+                <img src="<?php echo base_url();?>/assets/img/SOLogo2.png" style="display:block; margin:auto; padding-top:20px; max-width:100%;">
+            </a>
+            <p class="w3-center w3-transparent">DevOps | AWS | BigData</p>
+            <a href="<?php echo base_url();?>" class="w3-bar-item w3-button w3-transparent">HOME</a>
+            <a href="<?php echo site_url();?>/home/about" class="w3-bar-item w3-button w3-transparent">ABOUT</a>
+            <a href="<?php echo site_url();?>/home/contact" class="w3-bar-item w3-button w3-transparent">CONTACT</a>
+            <div class="w3-margin-top w3-center">
+                <a href="https://www.twitter.com/TeamSilverOrbit" class="w3-hover-opacity"><img src="<?php echo base_url();?>/assets/img/side2.png"></a>
+                <a href="https://github.com/silverorbit" class="w3-hover-opacity"><img src="<?php echo base_url();?>/assets/img/side3.png"></a>
+                <a href="https://support@SilverOrbit.com" class="w3-hover-opacity"><img src="<?php echo base_url();?>/assets/img/side4.png"></a>
+            </div>
+        </nav>
+
+        <div style="width: 75%; position: absolute; right: 0px;">
+            <!-- Team SilverOrbit February 2017 Activities -->
+            <div class="w3-container" style="padding:20px 50px">
+                <header>
+                    <h2><a href="<?php echo site_url();?>/home/activities/">Team SilverOrbit February 2017 Activities</a></h2>
+                    <p>
+                        Posted on Fri 10 March 2017 in <a href="<?php echo site_url();?>/home/activities/">training, bootcamp, pycon</a>
+                    </p>
+                </header>
+                <div>
+                    <p>We shared our Experiences, Processes and Tools with other Developers</p>
+                    <p>Last February 15, our team conducted a 1-day workshop with our invited fellow developers to work with our Devops tools.</p>
+                    <p>We introduced our tools on how we do projects with following workflow:</p>
+                    <ul>
+                        <li>Linux Operating System </li>
+                        <li>Vagrant for setting up developers ...</li>
+                    </ul>
+                    <br>
+                    <a class="w3-button w3-dark-grey" href="<?php echo site_url();?>/home/activities/">Continue reading</a>
+                </div>
+            </div>
+
+            <!-- ElasticSearch and Kibana -->
+            <div class="w3-container w3-light-grey" style="padding:20px 50px" id="team">
+                <header>
+                    <h2><a href="<?php echo site_url();?>/home/kibana/">ElasticSearch and Kibana</a></h2>
+                    <p>
+                        Posted on Tue 27 September 2016 in <a href="<?php echo site_url();?>/home/kibana/">elasticsearch</a>
+                    </p>
+                </header>
+                <div>
+                    <p>The following is a running ElasticSearch, Kibana and Topbeat installed using Ansible.</p>
+                    <p>Using the following Ansible roles:</p>
+                    <ul>
+                        <li><a href="https://galaxy.ansible.com/williamyeh/oracle-java/">Java Role</a></li>
+                        <li><a href="https://galaxy.ansible.com/CyVerse-Ansible/elasticsearch/">Elasticsearch Role</a></li>
+                        <li><a href="https://galaxy.ansible.com/CyVerse-Ansible/beats/">Beats Roles</a> </li>
+                    </ul>
+                    <br>
+                    <a class="w3-button w3-dark-grey" href="<?php echo site_url();?>/home/kibana/">Continue reading</a>
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <footer class="w3-center w3-dark-grey w3-padding-16">
+                <p class="w3-center">© SilverOrbit 2017</p>
+            </footer>
+        </div>
+    </body>
+</html>

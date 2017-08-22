@@ -24,6 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 $config['base_url'] = 'http://localhost/s8/';
+//$config['base_url'] = 'http://9cc2375b.ngrok.io/s8/';
 
 /*
 |--------------------------------------------------------------------------
