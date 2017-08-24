@@ -30,7 +30,7 @@
             <div class="w3-margin-top w3-center">
                 <a href="https://www.twitter.com/TeamSilverOrbit" class="w3-hover-opacity"><img src="<?php echo base_url();?>/assets/img/side2.png"></a>
                 <a href="https://github.com/silverorbit" class="w3-hover-opacity"><img src="<?php echo base_url();?>/assets/img/side3.png"></a>
-                <a href="https://support@SilverOrbit.com" class="w3-hover-opacity"><img src="<?php echo base_url();?>/assets/img/side4.png"></a>
+                <a href="mailto:support@silverorbit.com" class="w3-hover-opacity"><img src="<?php echo base_url();?>/assets/img/side4.png"></a>
             </div>
         </nav>
 
@@ -38,8 +38,8 @@
             <!-- ElasticSearch and Kibana -->
             <div class="w3-container" style="padding:20px 50px">
                 <header>
-                    <h2><a href="<?php echo site_url();?>/home/kibana/">ElasticSearch and Kibana</a></h2>
-                    <p>
+                    <h2 style="margin: 0px;"><a href="<?php echo site_url();?>/home/kibana/">ElasticSearch and Kibana</a></h2>
+                    <p class="w3-small" style="margin: 0px;">
                         Posted on Tue 27 September 2016 in <a href="<?php echo site_url();?>/home/kibana/">elasticsearch</a>
                     </p>
                 </header>

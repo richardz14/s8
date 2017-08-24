@@ -37,28 +37,27 @@
 
         <!-- Contact Section -->
         <div class="w3-container" style="padding:80px 16px">
-            <h3 class="w3-center" style="margin-top:32px">CONTACT US</h3>
+            <h2 class="w3-center" style="margin-top:32px">CONTACT US</h2>
             <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
             <div class="w3-row-padding" style="margin-top:64px">
                 <div class="w3-half">
-                    <p><i class="w3-margin-right"><img src="<?php echo base_url();?>/assets/img/con1.png"></i> S4 TBIC Bacolod First Cyber Center, P.Hernaez St. Bacolod City,<br>
-                                                                                                                    &emsp;&emsp;&emsp;&emsp;&nbsp;Negros Occidental, Philippines, 6100</p>
+                    <p>S4 TBIC Bacolod First Cyber Center, P.Hernaez St., Bacolod City, Negros Occidental, Philippines, 6100</p>
                     <p><i class="w3-margin-right"><img src="<?php echo base_url();?>/assets/img/con2.png"></i> (034)445-3913</p>
-                    <p><i class="w3-margin-right"><img src="<?php echo base_url();?>/assets/img/con3.png"></i> support@SilverOrbit.com</p>
+                    <p><i class="w3-margin-right"><img src="<?php echo base_url();?>/assets/img/con3.png"></i> support@silverorbit.com</p>
                     <p><i class="w3-margin-right"><img src="<?php echo base_url();?>/assets/img/con4.png"></i> twitter.com/TeamSilverOrbit</p>
                     <p><i class="w3-margin-right"><img src="<?php echo base_url();?>/assets/img/con5.png"></i> github.com/silverorbit</p>
                     <br>
                     <form>
                         <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
-                        <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
+                        <p><input class="w3-input w3-border" type="email" placeholder="Email" required name="Email"></p>
                         <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
-                        <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
+                        <p><textarea class="w3-input w3-border" type="text" placeholder="Message" required name="Message" style="height: 200px;"></textarea></p>
                         <p><button class="w3-button w3-dark-grey" type="submit"> SEND MESSAGE</button></p>
                     </form>
                 </div>
                 <div class="w3-half">
                     <!-- Add Google Maps -->
-                    <div id="googleMap" class="w3-greyscale-max" style="width:100%;height:510px;">
+                    <div id="googleMap" class="map">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1648.5508672636442!2d122.94697157945163!3d10.662010469241437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33aed1ca7857baad%3A0xb6c37dac71499761!2sNegros+First+Cybercentre!5e0!3m2!1sen!2sph!4v1502867796252" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
                     </div>
                 </div>
@@ -70,7 +69,7 @@
             <div class="w3-margin-top">
                 <a href="https://www.twitter.com/TeamSilverOrbit" class="w3-hover-opacity"><img src="<?php echo base_url();?>/assets/img/foot2.png"></a>
                 <a href="https://github.com/silverorbit" class="w3-hover-opacity"><img src="<?php echo base_url();?>/assets/img/foot3.png"></a>
-                <a href="https://support@SilverOrbit.com" class="w3-hover-opacity"><img src="<?php echo base_url();?>/assets/img/foot4.png"></a>
+                <a href="mailto:support@silverorbit.com" class="w3-hover-opacity"><img src="<?php echo base_url();?>/assets/img/foot4.png"></a>
             </div>
             <p class="w3-center">© SilverOrbit 2017</p>
         </footer>

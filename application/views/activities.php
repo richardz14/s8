@@ -30,7 +30,7 @@
             <div class="w3-margin-top w3-center">
                 <a href="https://www.twitter.com/TeamSilverOrbit" class="w3-hover-opacity"><img src="<?php echo base_url();?>/assets/img/side2.png"></a>
                 <a href="https://github.com/silverorbit" class="w3-hover-opacity"><img src="<?php echo base_url();?>/assets/img/side3.png"></a>
-                <a href="https://support@SilverOrbit.com" class="w3-hover-opacity"><img src="<?php echo base_url();?>/assets/img/side4.png"></a>
+                <a href="mailto:support@silverorbit.com" class="w3-hover-opacity"><img src="<?php echo base_url();?>/assets/img/side4.png"></a>
             </div>
         </nav>
 
@@ -38,8 +38,8 @@
             <!-- Team SilverOrbit February 2017 Activities -->
             <div class="w3-container" style="padding:20px 50px">
                 <header>
-                    <h2><a href="<?php echo site_url();?>/home/activities/">Team SilverOrbit February 2017 Activities</a></h2>
-                    <p>
+                    <h2 style="margin: 0px;"><a href="<?php echo site_url();?>/home/activities/">Team SilverOrbit February 2017 Activities</a></h2>
+                    <p class="w3-small" style="margin: 0px;">
                         Posted on Fri 10 March 2017 in <a href="<?php echo site_url();?>/home/activities/">training, bootcamp, pycon</a>
                     </p>
                 </header>

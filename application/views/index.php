@@ -8,14 +8,15 @@
     <link rel="stylesheet" href="<?php echo base_url();?>/assets/css/font.css">
     <script src="<?php echo base_url();?>/assets/js/script.js"></script>
     <script src="<?php echo base_url();?>/assets/js/jquery.min.js"></script>
+    <script src="<?php echo base_url();?>/assets/js/jquery.flexisel.js"></script>
 
     <!-- Full height image header -->
     <style>
         .bgimg-1 {
-        background-position: center;
-        background-size: cover;
-        background-image: url("<?php echo base_url();?>/assets/img/back3.jpg");
-        min-height: 100%;
+            background-position: center;
+            background-size: contain;
+            background-image: url("<?php echo base_url();?>/assets/img/back4.jpg");
+            max-width: 100%;
         }
     </style>
 
@@ -50,20 +51,20 @@
         </nav>
 
         <!-- Header with full-height image -->
-        <header class="bgimg-1 w3-display-containers" id="home"></header>
+        <header class="bgimg-1 w3-display-containers" id="home">
+            <img src="<?php echo base_url();?>/assets/img/logo.png" style="display: block; margin: auto; max-width: 40%; padding:70px 0px 40px 0px;">
+        </header>
 
         <!-- Products Section -->
         <div class="w3-container" style="padding:50px 16px">
-            <h3 class="w3-center">OUR PRODUCTS</h3>
-            <p class="w3-center">Our mission is to make use of cloud based and open source technologies<br>
-                                            to build products for you, our clients.<br>
-                                            We believe that cloud computing and open source technologies<br>
-                                            are the present and the future of technology.</p>
-            <div class="w3-row-padding" style="margin-top: 64px;">
-                <ul id="flexiselDemo1">
+            <h2 class="w3-center w3-hover-opacity" id="toggle" style="cursor: pointer;">OUR PRODUCTS</h2>
+            <div class="w3-row-padding" style="margin-top: 64px;" id="myDiv">
+                <!-- <ul id="flexiselDemo1"> -->
+                <div class="w3-container">
                     <div class="w3-col l3 m6 w3-margin-bottom">
                         <div class="w3-card-2" style="width: 80%;">
-                            <img src="<?php echo base_url();?>/assets/img/t1.jpg" alt="Rodney" style="width:100%">
+                            <img src="<?php echo base_url();?>/assets/img/soon.jpg" style="width:100%; cursor: pointer;" onclick="onClick(this)" class="w3-hover-opacity"
+                                alt="Product 1 Details">
                             <div class="w3-container w3-light-grey">
                                 <h3>Product 1</h3>
                                 <p class="w3-opacity">Short Description</p>
@@ -72,7 +73,8 @@
                     </div>
                     <div class="w3-col l3 m6 w3-margin-bottom">
                         <div class="w3-card-2" style="width: 80%;">
-                            <img src="<?php echo base_url();?>/assets/img/t2.jpg" alt="JM" style="width:100%">
+                            <img src="<?php echo base_url();?>/assets/img/soon.jpg" style="width:100%; cursor: pointer;" onclick="onClick(this)" class="w3-hover-opacity"
+                                alt="Product 2 Details">
                             <div class="w3-container w3-light-grey">
                                 <h3>Product 2</h3>
                                 <p class="w3-opacity">Short Description</p>
@@ -81,7 +83,8 @@
                     </div>
                     <div class="w3-col l3 m6 w3-margin-bottom">
                         <div class="w3-card-2" style="width: 80%;">
-                            <img src="<?php echo base_url();?>/assets/img/t3.jpg" alt="Javier" style="width:100%">
+                            <img src="<?php echo base_url();?>/assets/img/soon.jpg" style="width:100%; cursor: pointer;" onclick="onClick(this)" class="w3-hover-opacity"
+                                alt="Product 3 Details">
                             <div class="w3-container w3-light-grey">
                                 <h3>Product 3</h3>
                                 <p class="w3-opacity">Short Description</p>
@@ -90,65 +93,23 @@
                     </div>
                     <div class="w3-col l3 m6 w3-margin-bottom">
                         <div class="w3-card-2" style="width: 80%;">
-                            <img src="<?php echo base_url();?>/assets/img/t4.jpg" alt="Leomar" style="width:100%">
+                            <img src="<?php echo base_url();?>/assets/img/soon.jpg" style="width:100%; cursor: pointer;" onclick="onClick(this)" class="w3-hover-opacity"
+                                alt="Product 4 Details">
                             <div class="w3-container w3-light-grey">
                                 <h3>Product 4</h3>
                                 <p class="w3-opacity">Short Description</p>
                             </div>
                         </div>
                     </div>
-                    <div class="w3-col l3 m6 w3-margin-bottom">
-                        <div class="w3-card-2" style="width: 80%;">
-                            <img src="<?php echo base_url();?>/assets/img/t5.jpg" alt="Edson" style="width:100%">
-                            <div class="w3-container w3-light-grey">
-                                <h3>Product 5</h3>
-                                <p class="w3-opacity">Short Description</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="w3-col l3 m6 w3-margin-bottom">
-                        <div class="w3-card-2" style="width: 80%;">
-                            <img src="<?php echo base_url();?>/assets/img/t6.jpg" alt="Julian" style="width:100%">
-                            <div class="w3-container w3-light-grey">
-                                <h3>Product 6</h3>
-                                <p class="w3-opacity">Short Description</p>
-                            </div>
-                        </div>
-                    </div>
-                </ul>
-                <script type="text/javascript">
-                    $(window).load(function() {
-                        $("#flexiselDemo1").flexisel({
-                            visibleItems: 3,
-                            animationSpeed: 1000,
-                            autoPlay: true,
-                            autoPlaySpeed: 3000,
-                            pauseOnHover: true,
-                            enableResponsiveBreakpoints: true,
-                            responsiveBreakpoints: {
-                                portrait: {
-                                    changePoint: 480,
-                                    visibleItems: 1
-                                },
-                                landscape: {
-                                    changePoint: 640,
-                                    visibleItems: 2
-                                },
-                                tablet: {
-                                    changePoint: 768,
-                                    visibleItems: 3
-                                }
-                            }
-                        });
-                    });
-                </script>
-                <script type="text/javascript" src="<?php echo base_url();?>/assets/js/jquery.flexisel.js"></script>
+                </div>
+                <!-- </ul> 
+                <a class="w3-button w3-dark-grey" style="display: block; margin: auto; width: 140px;" href="<?php echo site_url();?>/home/about/#products">View Products</a>-->
             </div>
         </div>
 
         <!-- Services Section -->
         <div class="w3-container w3-light-grey" style="padding:50px 16px">
-            <h3 class="w3-center">SOME OF THE SERVICES WE OFFER</h3>
+            <h2 class="w3-center">SOME OF THE SERVICES WE OFFER</h2>
             <div class="w3-row-padding w3-center" style="margin-top:32px">
                 <div class="w3-third">
                     <i><img src="<?php echo base_url();?>/assets/img/serv1.png"></i>
@@ -162,6 +123,7 @@
                     <i><img src="<?php echo base_url();?>/assets/img/serv3.png"></i>
                     <p class="w3-large">Python</p>
                 </div>
+                <a class="w3-button w3-dark-grey" style="display: block; margin: auto; width: 140px;" href="<?php echo site_url();?>/home/about/#services">View Services</a>
             </div>
         </div>
 
@@ -170,7 +132,7 @@
             <div class="w3-margin-top">
                 <a href="https://www.twitter.com/TeamSilverOrbit" class="w3-hover-opacity"><img src="<?php echo base_url();?>/assets/img/foot2.png"></a>
                 <a href="https://github.com/silverorbit" class="w3-hover-opacity"><img src="<?php echo base_url();?>/assets/img/foot3.png"></a>
-                <a href="https://support@SilverOrbit.com" class="w3-hover-opacity"><img src="<?php echo base_url();?>/assets/img/foot4.png"></a>
+                <a href="mailto:support@silverorbit.com" class="w3-hover-opacity"><img src="<?php echo base_url();?>/assets/img/foot4.png"></a>
             </div>
             <p class="w3-center">© SilverOrbit 2017</p>
         </footer>
@@ -191,6 +153,39 @@
             function w3_close() {
                 mySidebar.style.display = "none";
             }
+
+            // Products Animation
+            /*$(window).load(function() {
+                $("#flexiselDemo1").flexisel({
+                    visibleItems: 3,
+                    animationSpeed: 1000,
+                    autoPlay: true,
+                    autoPlaySpeed: 3000,
+                    pauseOnHover: true,
+                    enableResponsiveBreakpoints: true,
+                    responsiveBreakpoints: {
+                        portrait: {
+                            changePoint: 480,
+                            visibleItems: 1
+                        },
+                        landscape: {
+                            changePoint: 640,
+                            visibleItems: 2
+                        },
+                        tablet: {
+                            changePoint: 768,
+                            visibleItems: 3
+                        }
+                    }
+                });
+            });*/
+
+            // Show/Hide Products
+            $(document).ready(function(){
+                $("#toggle").click(function(){
+                    $("#myDiv").toggle(1000);
+                });
+            });
         </script>
     </body>
 </html>
