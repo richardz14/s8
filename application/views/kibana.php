@@ -3,6 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>SilverOrbit &ndash; ElasticSearch and Kibana</title>
+    <link rel="icon" type="image/x-icon" href="<?php echo base_url();?>/assets/img/favicon.ico">
     <link rel="stylesheet" href="<?php echo base_url();?>/assets/css/style.css">
     <link rel="stylesheet" href="<?php echo base_url();?>/assets/css/style2.css">
     <link rel="stylesheet" href="<?php echo base_url();?>/assets/css/font.css">

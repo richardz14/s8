@@ -3,6 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>SilverOrbit &ndash; Home</title>
+    <link rel="icon" type="image/x-icon" href="<?php echo base_url();?>/assets/img/favicon.ico">
     <link rel="stylesheet" href="<?php echo base_url();?>/assets/css/style.css">
     <link rel="stylesheet" href="<?php echo base_url();?>/assets/css/style2.css">
     <link rel="stylesheet" href="<?php echo base_url();?>/assets/css/font.css">
@@ -61,42 +62,32 @@
             <div class="w3-row-padding" style="margin-top: 64px;" id="myDiv">
                 <!-- <ul id="flexiselDemo1"> -->
                 <div class="w3-container">
-                    <div class="w3-col l3 m6 w3-margin-bottom">
-                        <div class="w3-card-2" style="width: 80%;">
-                            <img src="<?php echo base_url();?>/assets/img/soon.jpg" style="width:100%; cursor: pointer;" onclick="onClick(this)" class="w3-hover-opacity"
-                                alt="Product 1 Details">
+                    <!--<div class="w3-col l3 m6 w3-margin-bottom">-->
+                    <div class="w3-third">
+                        <div class="w3-card-2" style="display: block; margin: auto; width: 80%;">
+                            <img src="<?php echo base_url();?>/assets/img/soon.jpg" style="width:100%;" onclick="onClick(this)">
                             <div class="w3-container w3-light-grey">
                                 <h3>Product 1</h3>
                                 <p class="w3-opacity">Short Description</p>
                             </div>
                         </div>
                     </div>
-                    <div class="w3-col l3 m6 w3-margin-bottom">
-                        <div class="w3-card-2" style="width: 80%;">
-                            <img src="<?php echo base_url();?>/assets/img/soon.jpg" style="width:100%; cursor: pointer;" onclick="onClick(this)" class="w3-hover-opacity"
-                                alt="Product 2 Details">
+                    <!--<div class="w3-col l3 m6 w3-margin-bottom">-->
+                    <div class="w3-third">
+                        <div class="w3-card-2" style="display: block; margin: auto; width: 80%;">
+                            <img src="<?php echo base_url();?>/assets/img/soon.jpg" style="width:100%;" onclick="onClick(this)">
                             <div class="w3-container w3-light-grey">
                                 <h3>Product 2</h3>
                                 <p class="w3-opacity">Short Description</p>
                             </div>
                         </div>
                     </div>
-                    <div class="w3-col l3 m6 w3-margin-bottom">
-                        <div class="w3-card-2" style="width: 80%;">
-                            <img src="<?php echo base_url();?>/assets/img/soon.jpg" style="width:100%; cursor: pointer;" onclick="onClick(this)" class="w3-hover-opacity"
-                                alt="Product 3 Details">
+                    <!--<div class="w3-col l3 m6 w3-margin-bottom">-->
+                    <div class="w3-third">
+                        <div class="w3-card-2" style="display: block; margin: auto; width: 80%;">
+                            <img src="<?php echo base_url();?>/assets/img/soon.jpg" style="width:100%;" onclick="onClick(this)">
                             <div class="w3-container w3-light-grey">
                                 <h3>Product 3</h3>
-                                <p class="w3-opacity">Short Description</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="w3-col l3 m6 w3-margin-bottom">
-                        <div class="w3-card-2" style="width: 80%;">
-                            <img src="<?php echo base_url();?>/assets/img/soon.jpg" style="width:100%; cursor: pointer;" onclick="onClick(this)" class="w3-hover-opacity"
-                                alt="Product 4 Details">
-                            <div class="w3-container w3-light-grey">
-                                <h3>Product 4</h3>
                                 <p class="w3-opacity">Short Description</p>
                             </div>
                         </div>
@@ -182,6 +173,7 @@
 
             // Show/Hide Products
             $(document).ready(function(){
+                $("#myDiv").hide();
                 $("#toggle").click(function(){
                     $("#myDiv").toggle(1000);
                 });

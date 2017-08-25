@@ -102,11 +102,6 @@ html {
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.map {
-    width: 100%;
-    height: 670px;
-}
-
 .modalimg {
     position: absolute;
     left: 0;
@@ -120,9 +115,6 @@ html {
 }
 
 @media only screen and (max-width: 600px) {
-    .map {
-        height: 400px;
-    }
     .modalimg {
         position: absolute;
         top: 0;
