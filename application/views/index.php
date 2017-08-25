@@ -15,9 +15,10 @@
     <style>
         .bgimg-1 {
             background-position: center;
-            background-size: contain;
+            background-size: cover;
             background-image: url("<?php echo base_url();?>/assets/img/back4.jpg");
             max-width: 100%;
+            min-height: 100vh;
         }
     </style>
 
@@ -53,7 +54,7 @@
 
         <!-- Header with full-height image -->
         <header class="bgimg-1 w3-display-containers" id="home">
-            <img src="<?php echo base_url();?>/assets/img/logo.png" style="display: block; margin: auto; max-width: 40%; padding:70px 0px 40px 0px;">
+            <img src="<?php echo base_url();?>/assets/img/logo.png" style="display: block; margin: auto; padding:70px 0px 40px 0px; max-height: 100vh;">
         </header>
 
         <!-- Products Section -->
