@@ -54,7 +54,7 @@
 
         <!-- Header with full-height image -->
         <header class="bgimg-1 w3-display-containers" id="home">
-            <img src="<?php echo base_url();?>/assets/img/logo.png" style="display: block; margin: auto; padding:70px 0px 40px 0px; max-height: 100vh;">
+            <img src="<?php echo base_url();?>/assets/img/logo.png" style="display: block; margin: auto; padding:70px 0px 40px 0px; max-height: 100vh; max-width: 100vw;">
         </header>
 
         <!-- Products Section -->
