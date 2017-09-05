@@ -22,7 +22,7 @@
         <!-- Sidebar -->
         <nav class="w3-sidebar w3-bar-block w3-black w3-card-2 bgimg-1" id="mySidebar">
             <a href="<?php echo site_url();?>/home/blog/">
-                <img src="<?php echo base_url();?>/assets/img/SOLogo2.png" style="display:block; margin:auto; padding-top:20px; max-width:100%;">
+                <img src="<?php echo base_url();?>/assets/img/Logo_1.png" style="display:block; margin:auto; padding-top:20px; max-width:100%;">
             </a>
             <p class="w3-center w3-transparent">DevOps | AWS | BigData</p>
             <a href="<?php echo base_url();?>" class="w3-bar-item w3-button w3-transparent">HOME</a>

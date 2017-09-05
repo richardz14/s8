@@ -69,7 +69,7 @@
 
         <!-- Sidebar (on small screens when clicking the menu icon) -->
         <nav class="w3-sidebar w3-bar-block w3-dark-grey w3-card-2 w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
-            <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+            <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close</a>
             <a href="<?php echo base_url();?>" onclick="w3_close()" class="w3-bar-item w3-button">HOME</a>
             <a href="<?php echo site_url();?>/home/about"  onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
             <a href="<?php echo site_url();?>/home/contact/" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
@@ -177,11 +177,11 @@
             <div class="w3-row-padding w3-center" style="margin-top:32px">
                 <div class="w3-third">
                     <i><img src="<?php echo base_url();?>/assets/img/serv1.png"></i>
-                    <p class="w3-large">Php</p>
+                    <p class="w3-large">LAMP Server</p>
                 </div>
                 <div class="w3-third">
                     <i><img src="<?php echo base_url();?>/assets/img/serv2.png"></i>
-                    <p class="w3-large">MySQL</p>
+                    <p class="w3-large">Ansible</p>
                 </div>
                 <div class="w3-third">
                     <i><img src="<?php echo base_url();?>/assets/img/serv3.png"></i>

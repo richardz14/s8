@@ -16,7 +16,7 @@
         .bgimg-1 {
             background-position: center;
             background-size: cover;
-            background-image: url("<?php echo base_url();?>/assets/img/back4.jpg");
+            background-image: url("<?php echo base_url();?>/assets/img/bg.jpg");
             max-width: 100%;
             min-height: 100vh;
         }
@@ -45,7 +45,7 @@
 
         <!-- Sidebar on small screens when clicking the menu icon -->
         <nav class="w3-sidebar w3-bar-block w3-dark-grey w3-card-2 w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
-            <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+            <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close</a>
             <a href="#home" onclick="w3_close()" class="w3-bar-item w3-button">HOME</a>
             <a href="<?php echo site_url();?>/home/about"  onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
             <a href="<?php echo site_url();?>/home/contact/" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
@@ -54,7 +54,7 @@
 
         <!-- Header with full-height image -->
         <header class="bgimg-1 w3-display-containers" id="home">
-            <img src="<?php echo base_url();?>/assets/img/logo.png" style="display: block; margin: auto; padding:70px 0px 40px 0px; max-height: 100vh; max-width: 100vw;">
+            <img src="<?php echo base_url();?>/assets/img/Logo_2.png" style="display: block; margin: auto; padding:70px 0px 40px 0px; max-height: 100vh; max-width: 100vw;">
         </header>
 
         <!-- Products Section -->
@@ -105,11 +105,11 @@
             <div class="w3-row-padding w3-center" style="margin-top:32px">
                 <div class="w3-third">
                     <i><img src="<?php echo base_url();?>/assets/img/serv1.png"></i>
-                    <p class="w3-large">Php</p>
+                    <p class="w3-large">LAMP Server</p>
                 </div>
                 <div class="w3-third">
                     <i><img src="<?php echo base_url();?>/assets/img/serv2.png"></i>
-                    <p class="w3-large">MySQL</p>
+                    <p class="w3-large">Ansible</p>
                 </div>
                 <div class="w3-third">
                     <i><img src="<?php echo base_url();?>/assets/img/serv3.png"></i>
