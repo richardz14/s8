@@ -105,17 +105,16 @@
             <div class="w3-row-padding w3-center" style="margin-top:32px">
                 <div class="w3-third">
                     <i><img src="<?php echo base_url();?>/assets/img/serv1.png"></i>
-                    <p class="w3-large">LAMP Server</p>
                 </div>
                 <div class="w3-third">
                     <i><img src="<?php echo base_url();?>/assets/img/serv2.png"></i>
-                    <p class="w3-large">Ansible</p>
                 </div>
                 <div class="w3-third">
                     <i><img src="<?php echo base_url();?>/assets/img/serv3.png"></i>
-                    <p class="w3-large">Python</p>
                 </div>
-                <a class="w3-button w3-dark-grey" style="display: block; margin: auto; width: 140px;" href="<?php echo site_url();?>/home/about/#services">View Services</a>
+            </div>
+            <div class="w3-row-padding w3-center" style="margin-top:64px">
+                <a class="w3-button w3-dark-grey" href="<?php echo site_url();?>/home/about/#services">View Services</a>
             </div>
         </div>
 

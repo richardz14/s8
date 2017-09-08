@@ -141,10 +141,12 @@
         <div class="w3-container" style="padding:50px 16px;">
             <h2 class="w3-center">OUR COMPANY</h2>
             <div class="w3-center" style="max-width: 70%; margin: auto;">
+            <!-- BUTTONS
                 <div>
                     <button class="w3-bar-item w3-button tablink w3-dark-grey" onclick="openTab(event,'story')">Our Story</button>
                     <button class="w3-bar-item w3-button tablink" onclick="openTab(event,'expertise')">Our Expertise</button>
                 </div>
+            -->
                 <div id="story" class="w3-border tab" style="height: 420px; overflow-y: auto;">
                     <h4 class="w3-center">OUR COMPANY'S STORY</h4>
                     <p class="w3-center w3-large">Our team consists of professionals who have extensive knowledge<br>
@@ -156,6 +158,7 @@
                                                     The members of our team have been providing software development services<br>
                                                     for various companies in the last 10 years.</p>
                 </div>
+            <!-- AREAS OF EXPERTISE
                 <div id="expertise" class="w3-border tab" style="height: 420px; overflow-y: auto; display:none">
                     <h4 class="w3-center">OUR AREAS OF EXPERTISE</h4>
                     <p class="w3-center w3-large">Although we cater to companies and businesses in all industries,<br>
@@ -168,6 +171,7 @@
                                             empowering you to make the right decisions and enabling you<br>
                                             to quickly adapt to environment changes.</p>
                 </div>
+            -->
             </div>
         </div>
 
@@ -177,29 +181,23 @@
             <div class="w3-row-padding w3-center" style="margin-top:32px">
                 <div class="w3-third">
                     <i><img src="<?php echo base_url();?>/assets/img/serv1.png"></i>
-                    <p class="w3-large">LAMP Server</p>
                 </div>
                 <div class="w3-third">
                     <i><img src="<?php echo base_url();?>/assets/img/serv2.png"></i>
-                    <p class="w3-large">Ansible</p>
                 </div>
                 <div class="w3-third">
                     <i><img src="<?php echo base_url();?>/assets/img/serv3.png"></i>
-                    <p class="w3-large">Python</p>
                 </div>
             </div>
-            <div class="w3-row-padding w3-center" style="margin-top:32px">
+            <div class="w3-row-padding w3-center" style="margin-top:64px">
                 <div class="w3-third">
                     <i><img src="<?php echo base_url();?>/assets/img/serv4.png"></i>
-                    <p class="w3-large">Amazon Web Services</p>
                 </div>
                 <div class="w3-third">
                     <i><img src="<?php echo base_url();?>/assets/img/serv5.png"></i>
-                    <p class="w3-large">Microsoft Azure</p>
                 </div>
                 <div class="w3-third">
                     <i><img src="<?php echo base_url();?>/assets/img/serv6.png"></i>
-                    <p class="w3-large">Google Cloud</p>
                 </div>
             </div>
         </div>
